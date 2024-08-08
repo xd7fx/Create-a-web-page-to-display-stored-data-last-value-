@@ -48,6 +48,9 @@ Before you begin, ensure you have met the following requirements:
     - Place the project files in your web server's root directory (e.g., `htdocs` for XAMPP).
     - Open a web browser and navigate to `http://localhost/<project_folder>/index.php`.
 
+![image](https://github.com/user-attachments/assets/fc1cb62e-c4a5-4437-aee5-f346b67ab156)
+
+
 ## Usage
 
 1. **Control Panel:**
@@ -73,16 +76,4 @@ Before you begin, ensure you have met the following requirements:
 ![Command Confirmation](https://github.com/user-attachments/assets/3ede4257-d267-488f-b91b-9525784abd9c)
 ![Command Confirmation](https://github.com/user-attachments/assets/dcdbb401-2c04-4b2e-bc3b-9cd1b26973c9)
 
-## Contributing
 
-To contribute to this project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`.
-4. Push to the original branch: `git push origin <project_name>/<location>`.
-5. Create the pull request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
