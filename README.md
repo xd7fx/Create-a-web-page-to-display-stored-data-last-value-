@@ -1,6 +1,6 @@
 # Command Control Panel
 
-This project is a simple web application that allows users to control a device by sending commands (forward, backward, left, right, stop) to a server. The commands are stored in a MySQL database and can be viewed on a confirmation page.
+This project is a simple web application that allows users to control a device by sending commands (forward, backward, left, right, stop) to a server. The commands are stored in a database managed by phpMyAdmin and can be viewed on a confirmation page.
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ Before you begin, ensure you have met the following requirements:
 
 - You have installed PHP and MySQL on your local machine.
 - You have a web server running (e.g., Apache).
-- You have access to a MySQL database.
+- You have access to phpMyAdmin to manage your MySQL database.
 
 ## Installation
 
@@ -21,7 +21,7 @@ Before you begin, ensure you have met the following requirements:
 
 2. **Set up the MySQL database:**
 
-    - Create a database named `commands`.
+    - Open phpMyAdmin and create a database named `commands`.
     - Create a table named `commands` with the following structure:
 
     ```sql
@@ -43,15 +43,11 @@ Before you begin, ensure you have met the following requirements:
     $dbname = "commands"; // Your database name
     ```
 
-![image](https://github.com/user-attachments/assets/7dda779c-d793-4b1c-857e-390638d8193e)
-
-
 4. **Run the application:**
 
     - Place the project files in your web server's root directory (e.g., `htdocs` for XAMPP).
     - Open a web browser and navigate to `http://localhost/<project_folder>/index.php`.
-  
-      
+
 ## Usage
 
 1. **Control Panel:**
@@ -71,9 +67,22 @@ Before you begin, ensure you have met the following requirements:
 ## Screenshots
 
 ### Control Panel
-![image](https://github.com/user-attachments/assets/70d082a6-3ae9-48b9-b40f-9fab294a042a)
+![Control Panel](https://github.com/user-attachments/assets/70d082a6-3ae9-48b9-b40f-9fab294a042a)
 
 ### Command Confirmation
-![image](https://github.com/user-attachments/assets/3ede4257-d267-488f-b91b-9525784abd9c)
-![image](https://github.com/user-attachments/assets/dcdbb401-2c04-4b2e-bc3b-9cd1b26973c9)
+![Command Confirmation](https://github.com/user-attachments/assets/3ede4257-d267-488f-b91b-9525784abd9c)
+![Command Confirmation](https://github.com/user-attachments/assets/dcdbb401-2c04-4b2e-bc3b-9cd1b26973c9)
 
+## Contributing
+
+To contribute to this project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`.
+4. Push to the original branch: `git push origin <project_name>/<location>`.
+5. Create the pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
