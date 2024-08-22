@@ -74,6 +74,5 @@ Before you begin, ensure you have met the following requirements:
 
 ### Command Confirmation
 ![Command Confirmation](https://github.com/user-attachments/assets/3ede4257-d267-488f-b91b-9525784abd9c)
-![Command Confirmation](https://github.com/user-attachments/assets/dcdbb401-2c04-4b2e-bc3b-9cd1b26973c9)
 
 
